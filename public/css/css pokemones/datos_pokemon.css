@@ -1,0 +1,63 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(../../img/fondo_login.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+}
+
+.container_cart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 80px;
+    border: 2px solid #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.name {
+    font-size: 28px;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 12px;
+}
+
+.img {
+    width: 210px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.abilities {
+    font-size: 22px;
+    font-style: italic;
+    margin-top: 44px;
+}
+
+.pokemon {
+    display: none;
+}
+
+#boton_salir{
+    display: block;
+    width: 20%;
+    padding-top: 8px;
+    padding-bottom: 6px;
+    margin-left: 291px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #333;
+    font-size: 40px;
+    color: #fff;
+}
